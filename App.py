@@ -14,7 +14,7 @@ st.set_page_config(page_title= "Retail Sales Prediction App", page_icon= ":heavy
 # Setting the page title
 st.title("Product demand Prediction ")
 
-
+relative_path = "streamlit_src//merged_data.csv"
 # ---- Importing and creating other key elements items
 # Function to import the Machine Learning toolkit
 #@st.cache(allow_output_mutation=True)
